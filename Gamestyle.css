@@ -1,0 +1,50 @@
+.score{
+    text-align:left;
+}
+#RealBody{
+    background-image: url(GameBackground.jpg);
+    color: white;
+    text-align: centerS;
+}
+.Container{
+    text-align: left;
+}
+.QuestionOutput{
+    display: none;
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: ridge;
+    background-color: wheat;
+    text-align: center;
+}
+.QuestionInput{
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: ridge;
+    background-color: wheat;
+    text-align: center;
+    
+}
+.submit{
+    background-color: yellow;
+    padding-left: 1px;
+    padding-top: 1px;
+}
+.input{
+    color: violet;
+}
+#player1Name{
+    color: black;
+}
+#Answer{
+    color: fuchsia;
+}
+.title{
+    color: aliceblue;
+    background-color: black;
+}
+/*TODO:Colors are tooo florocent

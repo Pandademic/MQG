@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet"type="text/css"href="Gamestyle.css">
+        <script src="game.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    </head>
+    <body id="RealBody">
+      
+            <h1 class="Container">Math Quiz Game</h1>
+            <hr class="FancyBar">
+            <br>
+            <br>
+            <br>
+          <h1 id="head"></h1>
+        <div class="score"onload="getNames()">
+            <div id="P1score">P1 Score:0</div>
+            <div id="P2score">P2 Score:0</div>
+        </div>
+        <div class="QuestionInput"id="input">
+            <h4>Player 1 Enter your question</h4>
+            <input id="QuestionP1"placeholder="question number 1"class="input">
+            <br>
+
+            <br>
+            <input id="Question P3"placeholder="Question number 2"class="input">
+            <br>
+            <button class="Submit"onclick="showQuestion()">Submit</button>
+        </div>    
+        <br>
+        <br>        
+        <div class="QuestionOutput"id="Output">
+            <h4>Player 1 Question:</h4>
+          <div id="question"></div>
+            <input id="Answer"placeholder="Enter your answer here">
+            <button class="submit"onclick="CheckA()">Send?</button>
+        </div>
+        
+    
+    </body>
+</html>
